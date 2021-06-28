@@ -11,14 +11,14 @@
   <body>
     <!-- APPEAR ON ONLY START -->
     <div class="start">
-      <img src="bg.jpg" alt="bg" />
+      <img src="/Static/bg.jpg" alt="bg" />
       <button>START</button>
     </div>
 
     <!-- WINDOW -->
     <div class="bgVid">
       <video muted id="vid">
-        <source src="video.webm" type="video/webm" />
+        <source src="/Static/video.webm" type="video/webm" />
       </video>
     </div>
     <!-- <div class="taskbar">
@@ -28,22 +28,22 @@
     <div class="taskbar1">
       <div class="taskIcon">
         <div class="imggg">
-          <img class="window" src="/winnIcon.png" alt="" />
-          <img onclick="sea()" src="/Capture.PNG" alt="" /> <input class="searchBox" type="text">
-          <img src="/edgeIcon.png" onclick="window.alert('Edge opened')" alt="" />
-          <img src="/storeIcon.png" onclick="window.alert('Store opened')" alt="" />
-          <img src="/galIcon.png" onclick="window.alert('Galary opened')" alt="" />
-          <img src="/fileIcon.png" onclick="window.alert('File Manager opened')" alt="" />
-          <img src="/vsIcon.png" onclick="window.alert('VS Code opened')" alt="" />
+          <img class="window" src="/Static/winnIcon.png" alt="" />
+          <img onclick="sea()" src="/Static/Capture.PNG" alt="" /> <input class="searchBox" type="text">
+          <img src="/Static/edgeIcon.png" onclick="window.alert('Edge opened')" alt="" />
+          <img src="/Static/storeIcon.png" onclick="window.alert('Store opened')" alt="" />
+          <img src="/Static/galIcon.png" onclick="window.alert('Galary opened')" alt="" />
+          <img src="/Static/fileIcon.png" onclick="window.alert('File Manager opened')" alt="" />
+          <img src="/Static/vsIcon.png" onclick="window.alert('VS Code opened')" alt="" />
         </div>
       </div>
-      <img class="rightTask" src="taskbarright.PNG" alt="" srcset="" />
+      <img class="rightTask" src="/Static/taskbarright.PNG" alt="" srcset="" />
     </div>
     <div class="icons">
       <img src="winIcons.PNG" alt="" srcset="" />
     </div>
     <div class="startMenu">
-      <img src="startmenu.PNG" alt="" srcset="" />
+      <img src="/Static/startmenu.PNG" alt="" srcset="" />
     </div>
     <script src="index.js"></script>
   </body>
